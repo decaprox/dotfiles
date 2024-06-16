@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: elisp-template
+# key: elisp-template
+# condition: (and (string= (file-name-extension buffer-file-name) "el") (= (point-min) (point-max)))
+# --
+;;; ${1:`(file-name-nondirectory (buffer-file-name))`} --- Summary -*- lexical-binding: t; -*-
+;;; Commentary:
+
+;;; Code:
+
+
+(provide '`(file-name-base (buffer-file-name))`)
+
+;;; $1 ends here

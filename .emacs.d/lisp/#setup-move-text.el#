@@ -1,0 +1,9 @@
+;;; setup-move-text.el --- Summary -*- lexical-binding: t; -*-
+
+;;; Commentary:
+
+;;; Code:
+
+(provide 'setup-move-text)
+
+;;;  ends here
