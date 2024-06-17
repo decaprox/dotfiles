@@ -27,10 +27,9 @@
   (corfu-auto t)                    ; enable auto completion
   (corfu-auto-prefix 1)             ; auto complete after a number of typed characters
   (corfu-auto-delay 1.0)            ; auto complete after a delay
-  ;;(corfu-auto nil)                    ; disable auto completion
   (corfu-separator ?\s)             ; whitespace is orderless field separator
   (corfu-quit-at-boundary 'separator) ; quit at completion boundary
-  (corfu-quit-no-match nil)         ; do not quit if there is no match
+  (corfu-quit-no-match t)           ; quit if there is no match
   (corfu-preview-current 'insert)   ; insert current candidate preview
   (corfu-preselect-first nil)       ; disable candidate preselection
   (corfu-on-exact-match nil)        ; configure handling of exact matches
