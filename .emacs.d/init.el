@@ -52,12 +52,13 @@
   (require 'setup-theme)
 
   (require 'setup-corfu)
-  (require 'setup-ido)
   (require 'setup-flycheck)
-  (require 'setup-move-text)
-  (require 'setup-yasnippet)
-  (require 'setup-platformio)
   (require 'setup-git)
+  (require 'setup-ido)
+  (require 'setup-move-text)
+  (require 'setup-platformio)
+  (require 'setup-smex)
+  (require 'setup-yasnippet)
 
   (setq custom-file "~/.emacs.d/custom.el")
   (when (file-exists-p custom-file)
